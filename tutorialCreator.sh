@@ -5,6 +5,8 @@ echo ***************************
 echo This shell script creates
 echo Folder, CMakeLists.txt and
 echo *.cpp files for you.
+echo Please be are that you need a OpenCV
+echo installation in your linux system.
 
 echo Please specify the name of your new Project.
 echo Press Ctr + C to abort
@@ -28,5 +30,5 @@ echo "include_directories( \${OpenCV_INCLUDE_DIRS} )" >> CMakeLists.txt
 echo "add_executable( $PROJECT $PROJECT.cpp )" >> CMakeLists.txt
 echo "target_link_libraries( $PROJECT \${OpenCV_LIBS} )" >> CMakeLists.txt
 
-# Create cpp file.
+# Create .cpp file.
 touch $PROJECT.cpp
