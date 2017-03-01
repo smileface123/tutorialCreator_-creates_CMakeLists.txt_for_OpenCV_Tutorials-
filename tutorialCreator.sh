@@ -1,5 +1,4 @@
 #!/bin/bash
-# My first script
 echo ***************************
 echo ***** tutorialCreator *****
 echo ***************************
