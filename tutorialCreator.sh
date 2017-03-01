@@ -1,6 +1,15 @@
 #!/bin/bash
 # My first script
-PROJECT="Test"
+echo ***************************
+echo ***** tutorialCreator *****
+echo ***************************
+echo This shell script creates
+echo Folder, CMakeLists.txt and *.cpp fileed for you.
+
+echo Please specify the name of your new Project.
+echo Press Ctr + C to abort
+
+read PROJECT
 
 mkdir $PROJECT
 cd $PROJECT
