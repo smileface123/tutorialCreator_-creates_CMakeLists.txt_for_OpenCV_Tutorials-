@@ -4,7 +4,8 @@ echo ***************************
 echo ***** tutorialCreator *****
 echo ***************************
 echo This shell script creates
-echo Folder, CMakeLists.txt and *.cpp fileed for you.
+echo Folder, CMakeLists.txt and
+echo *.cpp files for you.
 
 echo Please specify the name of your new Project.
 echo Press Ctr + C to abort
