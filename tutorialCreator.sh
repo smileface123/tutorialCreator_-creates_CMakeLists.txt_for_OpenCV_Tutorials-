@@ -2,14 +2,17 @@
 echo ***************************
 echo ***** tutorialCreator *****
 echo ***************************
+echo
 echo This shell script creates
-echo Folder, CMakeLists.txt and
-echo *.cpp files for you.
-echo Please be are that you need a OpenCV
-echo installation in your linux system.
-
-echo Please specify the name of your new Project.
-echo Press Ctr + C to abort
+echo a folder, CMakeLists.txt and
+echo an empty *.cpp file for you.
+echo
+echo Please be aware that you need a OpenCV
+echo installation on your linux system.
+echo
+echo Please specify the name of your new Project
+echo or press Ctr + C to abort.
+echo
 
 # Read user input.
 read PROJECT
